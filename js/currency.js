@@ -37,7 +37,7 @@ function getCurVals() {
 function getData(callback) {
   $.ajax({
       type: "POST",
-      url: `http://api.fixer.io/latest?base=${base}`,
+      url: `https://api.fixer.io/latest?base=${base}`,
       async:true,
       dataType : 'jsonp',
       crossDomain:true,
